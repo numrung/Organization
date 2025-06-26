@@ -1,34 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>เปิด Web App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>เปิดแบบฟอร์ม Upload Sales</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
     <style>
       body {
-        font-family: sans-serif;
-        text-align: center;
-        padding: 50px;
-        background: #f0f4f8;
+        margin: 0;
+        padding: 0;
+        font-family: 'Prompt', sans-serif;
+        background: linear-gradient(135deg, #dbeafe, #f0f9ff);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
       }
+
+      .container {
+        background: white;
+        padding: 40px 60px;
+        border-radius: 20px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
+      }
+
+      h2 {
+        color: #1e3a8a;
+        margin-bottom: 30px;
+        font-weight: 600;
+      }
+
       .btn {
         background: #2563eb;
         color: white;
-        padding: 14px 28px;
+        padding: 14px 32px;
         font-size: 18px;
         border: none;
-        border-radius: 8px;
+        border-radius: 12px;
         cursor: pointer;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
       }
+
       .btn:hover {
         background: #1d4ed8;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 18px rgba(37, 99, 235, 0.5);
       }
     </style>
   </head>
   <body>
-    <h2>เปิดแบบฟอร์ม Upload Sales Organization</h2>
-    <a href="https://script.google.com/macros/s/AKfycbzW3adzbuDPfx-C1qgdWPoGMmW2c0fHBvm07Ib3BSVO1L3g6t3rJORgnh0p8XEnXqACIQ/exec" target="_blank" rel="noopener">
-      <button class="btn">เปิดแบบฟอร์ม</button>
-    </a>
+    <div class="container">
+      <h2>Sales Organization<br>Upload Sales Organization</h2>
+      <a href="https://script.google.com/macros/s/AKfycbzW3adzbuDPfx-C1qgdWPoGMmW2c0fHBvm07Ib3BSVO1L3g6t3rJORgnh0p8XEnXqACIQ/exec" target="_blank" rel="noopener">
+        <button class="btn">เปิดแบบฟอร์ม</button>
+      </a>
+    </div>
   </body>
 </html>
