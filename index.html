@@ -1,63 +1,88 @@
 <!DOCTYPE html>
 <html lang="th">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>เปิดแบบฟอร์ม Upload Sales</title>
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Prompt', sans-serif;
-        background: linear-gradient(135deg, #dbeafe, #f0f9ff);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TOOL SALETEAM</title>
+  <style>
+    body {
+      font-family: "Sarabun", sans-serif;
+      background: linear-gradient(135deg, #4b6cb7, #182848);
+      color: white;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
 
-      .container {
-        background: white;
-        padding: 40px 60px;
-        border-radius: 20px;
-        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        max-width: 400px;
-        width: 100%;
-      }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 40px;
+      letter-spacing: 2px;
+      text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    }
 
-      h2 {
-        color: #1e3a8a;
-        margin-bottom: 30px;
-        font-weight: 600;
-      }
+    .btn-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      max-width: 600px;
+    }
 
-      .btn {
-        background: #2563eb;
-        color: white;
-        padding: 14px 32px;
-        font-size: 18px;
-        border: none;
-        border-radius: 12px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
-      }
+    a.button {
+      background: #1e90ff;
+      padding: 15px 30px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(30, 144, 255, 0.5);
+      transition: background 0.3s ease, box-shadow 0.3s ease;
+      flex: 1 1 250px;
+      text-align: center;
+      font-weight: 600;
+      user-select: none;
+    }
 
-      .btn:hover {
-        background: #1d4ed8;
-        transform: translateY(-2px);
-        box-shadow: 0 6px 18px rgba(37, 99, 235, 0.5);
+    a.button:hover {
+      background: #0d60b3;
+      box-shadow: 0 8px 20px rgba(13, 96, 179, 0.7);
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2rem;
       }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h2>เปิดแบบฟอร์ม<br>Upload Sales Organization</h2>
-      <a href="https://script.google.com/macros/s/AKfycbzW3adzbuDPfx-C1qgdWPoGMmW2c0fHBvm07Ib3BSVO1L3g6t3rJORgnh0p8XEnXqACIQ/exec" target="_blank" rel="noopener">
-        <button class="btn">OPEN FROM</button>
-      </a>
-    </div>
-  </body>
+      a.button {
+        font-size: 1rem;
+        padding: 12px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>TOOL SALETEAM</h1>
+  <div class="btn-container">
+    <a
+      class="button"
+      href="https://script.google.com/macros/s/AKfycbzNh7xVyjhTBoB06gO5ZryRrULmcK5-pFcaclGvGITU17p18g5sg4qL3Tws-YsehIGP/exec"
+      target="_blank"
+      rel="noopener noreferrer"
+      >ระบบแปลงข้อความร้านค้า Callplan</a
+    >
+
+    <a
+      class="button"
+      href="https://script.google.com/macros/s/AKfycbzW3adzbuDPfx-C1qgdWPoGMmW2c0fHBvm07Ib3BSVO1L3g6t3rJORgnh0p8XEnXqACIQ/exec"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Upload File Sales Organization</a
+    >
+  </div>
+</body>
 </html>
